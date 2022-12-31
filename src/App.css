@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.home-page {
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 500px;
+}
+
+.search-bar {
+  width: 100%;
+  margin: 3em 0;
+  display: flex;
+  align-items: center;
+  padding: 0 1em;
+  height: 50px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.238);
+  border-radius: 32px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 1rem 0;
+  border: 0;
+  outline: none;
+}
+
+.search-icon {
+  width: 24px;
+  margin-right: 15px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+nav .top-nav .container {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  padding: 20px 0;
+  border-bottom: 1px solid #aeaeae;
+}
+
+.nav-logo {
+  width: 70px;
+  margin-right: 20px;
+}
+
+nav .search-bar {
+  margin: 0;
+}
+
+.tabs .container {
+  display: flex;
+  padding-top: 2em;
+}
+
+.tabs .container > * {
+  margin-right: 2em;
+}
+
+.tabs a {
+  text-decoration: none;
+  color: #000;
+}
+
+.tabs a.active {
+  color: #1a73e8;
+}
+
+p {
+  color: #4d5156;
+  font-size: 14px;
+}
+
+.link {
+  color: #006621;
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+.title {
+  color: #1a0dab;
+  font-size: 20px;
+}
+
+.result-card {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width: 800px) {
+  .home-page {
+    width: 50%;
+  }
+}
